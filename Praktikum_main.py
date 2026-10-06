@@ -8,3 +8,5 @@ print("keliling:", keliling)
 luas = persegi.luas()
 print("luas:", luas)
 
+print(persegi)
+
