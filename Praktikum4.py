@@ -11,3 +11,7 @@ class Rectangle:
 
     def luas(self):
         return self.panjang * self.lebar
+
+    def __str__(self):
+        return "persegi panjang, panjang " + str(self.panjang) + \
+               " cm, dan lebar " + str(self.lebar) + " cm"
